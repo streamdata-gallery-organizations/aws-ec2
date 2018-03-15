@@ -1,6 +1,6 @@
 title: Streamdata Gallery
 url: aws-ec2.api.streamdata.gallery
-tag: Temmplate
+tag: AWS EC2
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery-organizations
