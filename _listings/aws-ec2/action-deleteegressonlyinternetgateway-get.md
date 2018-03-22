@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEgressOnlyInternetGateway&k=1:
+  /?Action=DeleteEgressOnlyInternetGateway:
     get:
       summary: Delete Egress Only Internet Gateway
       description: Deletes an egress-only Internet gateway
