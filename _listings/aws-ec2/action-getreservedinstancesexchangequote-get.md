@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetReservedInstancesExchangeQuote&k=1:
+  /?Action=GetReservedInstancesExchangeQuote:
     get:
       summary: Get Reserved Instances Exchange Quote
       description: Returns details about the values and term of your specified Convertible
