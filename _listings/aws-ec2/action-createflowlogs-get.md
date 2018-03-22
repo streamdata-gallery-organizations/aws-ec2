@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateFlowLogs&k=1:
+  /?Action=CreateFlowLogs:
     get:
       summary: Create Flow Logs
       description: Creates one or more flow logs to capture IP traffic for a specific
