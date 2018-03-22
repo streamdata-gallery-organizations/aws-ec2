@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVolume&k=1:
+  /?Action=CreateVolume:
     get:
       summary: Create Volume
       description: Creates an EBS volume that can be attached to an instance in the
