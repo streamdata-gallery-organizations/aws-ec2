@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachVolume&k=1:
+  /?Action=DetachVolume:
     get:
       summary: Detach Volume
       description: Detaches an EBS volume from an instance
