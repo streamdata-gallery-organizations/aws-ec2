@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcClassicLink&k=1:
+  /?Action=DescribeVpcClassicLink:
     get:
       summary: Describe Vpc Classic Link
       description: Describes the ClassicLink status of one or more VPCs
