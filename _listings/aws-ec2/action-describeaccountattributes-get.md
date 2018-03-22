@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAccountAttributes&k=1:
+  /?Action=DescribeAccountAttributes:
     get:
       summary: Describe Account Attributes
       description: Describes attributes of your AWS account
