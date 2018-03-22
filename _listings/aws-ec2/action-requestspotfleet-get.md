@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RequestSpotFleet&k=1:
+  /?Action=RequestSpotFleet:
     get:
       summary: Request Spot Fleet
       description: Creates a Spot fleet request
