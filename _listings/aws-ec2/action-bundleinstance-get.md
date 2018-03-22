@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BundleInstance&k=1:
+  /?Action=BundleInstance:
     get:
       summary: Bundle Instance
       description: Bundles an Amazon instance store-backed Windows instance
