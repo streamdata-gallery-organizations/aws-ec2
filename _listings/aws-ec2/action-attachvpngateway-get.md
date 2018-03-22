@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachVpnGateway&k=1:
+  /?Action=AttachVpnGateway:
     get:
       summary: Attach Vpn Gateway
       description: Attaches a virtual private gateway to a VPC
