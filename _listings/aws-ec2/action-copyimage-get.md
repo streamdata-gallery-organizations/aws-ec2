@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopyImage&k=1:
+  /?Action=CopyImage:
     get:
       summary: Copy Image
       description: Initiates the copy of an AMI from the specified source region to
