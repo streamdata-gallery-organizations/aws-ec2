@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ConfirmProductInstance&k=1:
+  /?Action=ConfirmProductInstance:
     get:
       summary: Confirm Product Instance
       description: Determines whether a product code is associated with an instance
