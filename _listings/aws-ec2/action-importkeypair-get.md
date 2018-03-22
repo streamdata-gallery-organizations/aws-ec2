@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ImportKeyPair&k=1:
+  /?Action=ImportKeyPair:
     get:
       summary: Import Key Pair
       description: Imports the public key from an RSA key pair that you created with
