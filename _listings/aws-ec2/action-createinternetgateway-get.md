@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInternetGateway&k=1:
+  /?Action=CreateInternetGateway:
     get:
       summary: Create Internet Gateway
       description: Creates an Internet gateway for use with a VPC
