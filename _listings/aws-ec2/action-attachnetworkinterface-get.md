@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachNetworkInterface&k=1:
+  /?Action=AttachNetworkInterface:
     get:
       summary: Attach Network Interface
       description: Attaches a network interface to an instance
