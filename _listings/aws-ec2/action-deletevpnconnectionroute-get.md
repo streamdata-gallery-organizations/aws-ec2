@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVpnConnectionRoute&k=1:
+  /?Action=DeleteVpnConnectionRoute:
     get:
       summary: Delete Vpn Connection Route
       description: Deletes the specified static route associated with a VPN connection
