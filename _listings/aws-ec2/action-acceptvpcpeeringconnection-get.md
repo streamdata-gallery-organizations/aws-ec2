@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AcceptVpcPeeringConnection&k=1:
+  /?Action=AcceptVpcPeeringConnection:
     get:
       summary: Accept Vpc Peering Connection
       description: Accept a VPC peering connection request
