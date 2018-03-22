@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelExportTask&k=1:
+  /?Action=CancelExportTask:
     get:
       summary: Cancel Export Task
       description: Cancels an active export task
