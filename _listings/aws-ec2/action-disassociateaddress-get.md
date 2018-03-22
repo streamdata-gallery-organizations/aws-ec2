@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisassociateAddress&k=1:
+  /?Action=DisassociateAddress:
     get:
       summary: Disassociate Address
       description: Disassociates an Elastic IP address from the instance or network
