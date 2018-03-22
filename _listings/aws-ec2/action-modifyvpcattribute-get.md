@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyVpcAttribute&k=1:
+  /?Action=ModifyVpcAttribute:
     get:
       summary: Modify Vpc Attribute
       description: Modifies the specified attribute of the specified VPC
