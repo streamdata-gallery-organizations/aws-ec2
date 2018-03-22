@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHostReservationOfferings&k=1:
+  /?Action=DescribeHostReservationOfferings:
     get:
       summary: Describe Host Reservation Offerings
       description: Describes the Dedicated Host Reservations that are available to
