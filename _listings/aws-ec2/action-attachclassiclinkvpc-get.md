@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachClassicLinkVpc&k=1:
+  /?Action=AttachClassicLinkVpc:
     get:
       summary: Attach Classic Link Vpc
       description: "Links an EC2-Classic instance to a ClassicLink-enabled VPC through
