@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTags&k=1:
+  /?Action=DeleteTags:
     get:
       summary: Delete Tags
       description: Deletes the specified set of tags from the specified set of resources
