@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcEndpoints&k=1:
+  /?Action=DescribeVpcEndpoints:
     get:
       summary: Describe Vpc Endpoints
       description: Describes one or more of your VPC endpoints
