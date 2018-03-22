@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateSubnetCidrBlock&k=1:
+  /?Action=AssociateSubnetCidrBlock:
     get:
       summary: Associate Subnet Cidr Block
       description: Associates a CIDR block with your subnet
