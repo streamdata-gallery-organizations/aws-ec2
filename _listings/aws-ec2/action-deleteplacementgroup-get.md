@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeletePlacementGroup&k=1:
+  /?Action=DeletePlacementGroup:
     get:
       summary: Delete Placement Group
       description: Deletes the specified placement group
