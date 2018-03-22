@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInstanceExportTask&k=1:
+  /?Action=CreateInstanceExportTask:
     get:
       summary: Create Instance Export Task
       description: Exports a running or stopped instance to an S3 bucket
