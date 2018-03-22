@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSpotFleetRequestHistory&k=1:
+  /?Action=DescribeSpotFleetRequestHistory:
     get:
       summary: Describe Spot Fleet Request History
       description: Describes the events for the specified Spot fleet request during
