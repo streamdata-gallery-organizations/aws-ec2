@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVpcEndpoints&k=1:
+  /?Action=DeleteVpcEndpoints:
     get:
       summary: Delete Vpc Endpoints
       description: Deletes one or more specified VPC endpoints
