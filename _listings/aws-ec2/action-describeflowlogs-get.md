@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeFlowLogs&k=1:
+  /?Action=DescribeFlowLogs:
     get:
       summary: Describe Flow Logs
       description: Describes one or more flow logs
