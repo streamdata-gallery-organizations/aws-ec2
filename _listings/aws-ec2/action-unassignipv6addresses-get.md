@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UnassignIpv6Addresses&k=1:
+  /?Action=UnassignIpv6Addresses:
     get:
       summary: Unassign Ipv6 Addresses
       description: Unassigns one or more IPv6 addresses from a network interface
