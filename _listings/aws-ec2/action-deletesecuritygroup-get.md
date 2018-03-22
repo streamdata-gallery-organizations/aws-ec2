@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSecurityGroup&k=1:
+  /?Action=DeleteSecurityGroup:
     get:
       summary: Delete Security Group
       description: Deletes a security group
