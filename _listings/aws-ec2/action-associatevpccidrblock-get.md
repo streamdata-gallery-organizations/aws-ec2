@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateVpcCidrBlock&k=1:
+  /?Action=AssociateVpcCidrBlock:
     get:
       summary: Associate Vpc Cidr Block
       description: Associates a CIDR block with your VPC
