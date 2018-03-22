@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyReservedInstances&k=1:
+  /?Action=ModifyReservedInstances:
     get:
       summary: Modify Reserved Instances
       description: Modifies the Availability Zone, instance count, instance type,
