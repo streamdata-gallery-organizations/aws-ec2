@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePrefixLists&k=1:
+  /?Action=DescribePrefixLists:
     get:
       summary: Describe Prefix Lists
       description: Describes available AWS services in a prefix list format, which
