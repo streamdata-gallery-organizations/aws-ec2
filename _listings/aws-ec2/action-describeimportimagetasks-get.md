@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeImportImageTasks&k=1:
+  /?Action=DescribeImportImageTasks:
     get:
       summary: Describe Import Image Tasks
       description: Displays details about an import virtual machine or import snapshot
