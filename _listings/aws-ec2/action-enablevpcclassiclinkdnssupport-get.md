@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableVpcClassicLinkDnsSupport&k=1:
+  /?Action=EnableVpcClassicLinkDnsSupport:
     get:
       summary: Enable Vpc Classic Link Dns Support
       description: Enables a VPC to support DNS hostname resolution for ClassicLink
