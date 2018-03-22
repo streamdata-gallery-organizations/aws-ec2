@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVpnConnection&k=1:
+  /?Action=CreateVpnConnection:
     get:
       summary: Create Vpn Connection
       description: |-
