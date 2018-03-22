@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateRoute&k=1:
+  /?Action=CreateRoute:
     get:
       summary: Create Route
       description: Creates a route in a route table within a VPC
