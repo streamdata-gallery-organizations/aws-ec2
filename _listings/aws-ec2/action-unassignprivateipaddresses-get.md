@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UnassignPrivateIpAddresses&k=1:
+  /?Action=UnassignPrivateIpAddresses:
     get:
       summary: Unassign Private Ip Addresses
       description: Unassigns one or more secondary private IP addresses from a network
