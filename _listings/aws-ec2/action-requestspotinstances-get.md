@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RequestSpotInstances&k=1:
+  /?Action=RequestSpotInstances:
     get:
       summary: Request Spot Instances
       description: Creates a Spot instance request
