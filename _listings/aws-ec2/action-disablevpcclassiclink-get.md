@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableVpcClassicLink&k=1:
+  /?Action=DisableVpcClassicLink:
     get:
       summary: Disable Vpc Classic Link
       description: Disables ClassicLink for a VPC
