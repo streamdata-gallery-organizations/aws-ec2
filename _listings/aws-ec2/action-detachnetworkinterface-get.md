@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachNetworkInterface&k=1:
+  /?Action=DetachNetworkInterface:
     get:
       summary: Detach Network Interface
       description: Detaches a network interface from an instance
