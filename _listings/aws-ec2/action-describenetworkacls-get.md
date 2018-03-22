@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeNetworkAcls&k=1:
+  /?Action=DescribeNetworkAcls:
     get:
       summary: Describe Network Acls
       description: Describes one or more of your network ACLs
