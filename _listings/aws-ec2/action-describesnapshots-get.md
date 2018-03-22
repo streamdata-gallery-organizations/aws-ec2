@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSnapshots&k=1:
+  /?Action=DescribeSnapshots:
     get:
       summary: Describe Snapshots
       description: Describes one or more of the EBS snapshots available to you
