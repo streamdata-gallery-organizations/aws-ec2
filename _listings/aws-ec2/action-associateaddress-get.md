@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateAddress&k=1:
+  /?Action=AssociateAddress:
     get:
       summary: Associate Address
       description: Associates an Elastic IP address with an instance or a network
