@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetSnapshotAttribute&k=1:
+  /?Action=ResetSnapshotAttribute:
     get:
       summary: Reset Snapshot Attribute
       description: Resets permission settings for the specified snapshot
