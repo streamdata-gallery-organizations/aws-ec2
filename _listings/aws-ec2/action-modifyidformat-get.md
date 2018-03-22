@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyIdFormat&k=1:
+  /?Action=ModifyIdFormat:
     get:
       summary: Modify Id Format
       description: Modifies the ID format for the specified resource on a per-region
