@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=MoveAddressToVpc&k=1:
+  /?Action=MoveAddressToVpc:
     get:
       summary: Move Address To Vpc
       description: Moves an Elastic IP address from the EC2-Classic platform to the
