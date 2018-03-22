@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateDhcpOptions&k=1:
+  /?Action=AssociateDhcpOptions:
     get:
       summary: Associate Dhcp Options
       description: Associates a set of DHCP options (that you've previously created)
