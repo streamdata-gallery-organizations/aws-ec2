@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteRouteTable&k=1:
+  /?Action=DeleteRouteTable:
     get:
       summary: Delete Route Table
       description: Deletes the specified route table
