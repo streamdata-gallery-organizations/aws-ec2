@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateEgressOnlyInternetGateway&k=1:
+  /?Action=CreateEgressOnlyInternetGateway:
     get:
       summary: Create Egress Only Internet Gateway
       description: '[IPv6 only] Creates an egress-only Internet gateway for your VPC'
