@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TerminateInstances&k=1:
+  /?Action=TerminateInstances:
     get:
       summary: Terminate Instances
       description: Shuts down one or more instances
