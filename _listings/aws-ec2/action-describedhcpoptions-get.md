@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDhcpOptions&k=1:
+  /?Action=DescribeDhcpOptions:
     get:
       summary: Describe Dhcp Options
       description: Describes one or more of your DHCP options sets
