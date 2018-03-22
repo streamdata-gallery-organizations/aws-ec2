@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSecurityGroups&k=1:
+  /?Action=DescribeSecurityGroups:
     get:
       summary: Describe Security Groups
       description: Describes one or more of your security groups
