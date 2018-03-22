@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterImage&k=1:
+  /?Action=RegisterImage:
     get:
       summary: Register Image
       description: Registers an AMI
