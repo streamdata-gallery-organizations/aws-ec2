@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyNetworkInterfaceAttribute&k=1:
+  /?Action=ModifyNetworkInterfaceAttribute:
     get:
       summary: Modify Network Interface Attribute
       description: Modifies the specified network interface attribute
