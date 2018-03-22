@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachVolume&k=1:
+  /?Action=AttachVolume:
     get:
       summary: Attach Volume
       description: |-
