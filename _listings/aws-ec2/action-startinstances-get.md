@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartInstances&k=1:
+  /?Action=StartInstances:
     get:
       summary: Start Instances
       description: Starts an Amazon EBS-backed AMI that you've previously stopped
