@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifySubnetAttribute&k=1:
+  /?Action=ModifySubnetAttribute:
     get:
       summary: Modify Subnet Attribute
       description: Modifies a subnet attribute
