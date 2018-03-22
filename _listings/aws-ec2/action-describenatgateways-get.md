@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeNatGateways&k=1:
+  /?Action=DescribeNatGateways:
     get:
       summary: Describe Nat Gateways
       description: Describes one or more of the your NAT gateways
