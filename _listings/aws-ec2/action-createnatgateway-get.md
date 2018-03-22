@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateNatGateway&k=1:
+  /?Action=CreateNatGateway:
     get:
       summary: Create Nat Gateway
       description: Creates a NAT gateway in the specified subnet
