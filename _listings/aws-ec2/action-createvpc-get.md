@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVpc&k=1:
+  /?Action=CreateVpc:
     get:
       summary: Create Vpc
       description: Creates a VPC with the specified IPv4 CIDR block
