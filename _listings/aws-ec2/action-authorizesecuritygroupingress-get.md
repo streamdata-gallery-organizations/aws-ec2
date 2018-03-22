@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AuthorizeSecurityGroupIngress&k=1:
+  /?Action=AuthorizeSecurityGroupIngress:
     get:
       summary: Authorize Security Group Ingress
       description: Adds one or more ingress rules to a security group
