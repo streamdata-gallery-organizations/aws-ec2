@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVpnConnection&k=1:
+  /?Action=DeleteVpnConnection:
     get:
       summary: Delete Vpn Connection
       description: Deletes the specified VPN connection
