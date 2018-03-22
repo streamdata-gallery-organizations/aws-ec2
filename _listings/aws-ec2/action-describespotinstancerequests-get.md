@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSpotInstanceRequests&k=1:
+  /?Action=DescribeSpotInstanceRequests:
     get:
       summary: Describe Spot Instance Requests
       description: Describes the Spot instance requests that belong to your account
