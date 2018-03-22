@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeBundleTasks&k=1:
+  /?Action=DescribeBundleTasks:
     get:
       summary: Describe Bundle Tasks
       description: Describes one or more of your bundling tasks
