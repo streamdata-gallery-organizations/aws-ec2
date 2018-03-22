@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableVgwRoutePropagation&k=1:
+  /?Action=EnableVgwRoutePropagation:
     get:
       summary: Enable Vgw Route Propagation
       description: Enables a virtual private gateway (VGW) to propagate routes to
