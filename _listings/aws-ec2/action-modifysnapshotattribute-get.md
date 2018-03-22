@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifySnapshotAttribute&k=1:
+  /?Action=ModifySnapshotAttribute:
     get:
       summary: Modify Snapshot Attribute
       description: Adds or removes permission settings for the specified snapshot
