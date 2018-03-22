@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssignPrivateIpAddresses&k=1:
+  /?Action=AssignPrivateIpAddresses:
     get:
       summary: Assign Private Ip Addresses
       description: Assigns one or more secondary private IP addresses to the specified
