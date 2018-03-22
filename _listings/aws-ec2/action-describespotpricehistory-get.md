@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSpotPriceHistory&k=1:
+  /?Action=DescribeSpotPriceHistory:
     get:
       summary: Describe Spot Price History
       description: Describes the Spot price history
