@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RunScheduledInstances&k=1:
+  /?Action=RunScheduledInstances:
     get:
       summary: Run Scheduled Instances
       description: Launches the specified Scheduled Instances
