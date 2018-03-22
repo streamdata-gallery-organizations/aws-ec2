@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetHostReservationPurchasePreview&k=1:
+  /?Action=GetHostReservationPurchasePreview:
     get:
       summary: Get Host Reservation Purchase Preview
       description: |-
