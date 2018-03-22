@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReplaceNetworkAclAssociation&k=1:
+  /?Action=ReplaceNetworkAclAssociation:
     get:
       summary: Replace Network Acl Association
       description: Changes which network ACL a subnet is associated with
