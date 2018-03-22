@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteNetworkAclEntry&k=1:
+  /?Action=DeleteNetworkAclEntry:
     get:
       summary: Delete Network Acl Entry
       description: Deletes the specified ingress or egress entry (rule) from the specified
