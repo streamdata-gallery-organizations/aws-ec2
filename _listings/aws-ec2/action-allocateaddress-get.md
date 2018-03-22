@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AllocateAddress&k=1:
+  /?Action=AllocateAddress:
     get:
       summary: Allocate Address
       description: Acquires an Elastic IP address
