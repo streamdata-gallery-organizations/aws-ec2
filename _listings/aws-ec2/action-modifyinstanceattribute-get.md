@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyInstanceAttribute&k=1:
+  /?Action=ModifyInstanceAttribute:
     get:
       summary: Modify Instance Attribute
       description: Modifies the specified attribute of the specified instance
