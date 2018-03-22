@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSubnet&k=1:
+  /?Action=CreateSubnet:
     get:
       summary: Create Subnet
       description: Creates a subnet in an existing VPC
