@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelSpotFleetRequests&k=1:
+  /?Action=CancelSpotFleetRequests:
     get:
       summary: Cancel Spot Fleet Requests
       description: Cancels the specified Spot fleet requests
