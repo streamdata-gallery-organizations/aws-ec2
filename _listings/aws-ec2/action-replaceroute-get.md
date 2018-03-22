@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReplaceRoute&k=1:
+  /?Action=ReplaceRoute:
     get:
       summary: Replace Route
       description: Replaces an existing route within a route table in a VPC
