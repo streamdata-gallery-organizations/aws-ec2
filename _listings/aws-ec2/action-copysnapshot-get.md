@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopySnapshot&k=1:
+  /?Action=CopySnapshot:
     get:
       summary: Copy Snapshot
       description: Copies a point-in-time snapshot of an EBS volume and stores it
