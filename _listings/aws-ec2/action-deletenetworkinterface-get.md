@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteNetworkInterface&k=1:
+  /?Action=DeleteNetworkInterface:
     get:
       summary: Delete Network Interface
       description: Deletes the specified network interface
