@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssignIpv6Addresses&k=1:
+  /?Action=AssignIpv6Addresses:
     get:
       summary: Assign Ipv6 Addresses
       description: Assigns one or more IPv6 addresses to the specified network interface
