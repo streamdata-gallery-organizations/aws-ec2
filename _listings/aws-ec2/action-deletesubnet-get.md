@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSubnet&k=1:
+  /?Action=DeleteSubnet:
     get:
       summary: Delete Subnet
       description: Deletes the specified subnet
