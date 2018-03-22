@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateRouteTable&k=1:
+  /?Action=AssociateRouteTable:
     get:
       summary: Associate Route Table
       description: Associates a subnet with a route table
