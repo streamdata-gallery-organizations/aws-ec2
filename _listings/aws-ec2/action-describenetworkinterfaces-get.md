@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeNetworkInterfaces&k=1:
+  /?Action=DescribeNetworkInterfaces:
     get:
       summary: Describe Network Interfaces
       description: Describes one or more of your network interfaces
