@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHostReservations&k=1:
+  /?Action=DescribeHostReservations:
     get:
       summary: Describe Host Reservations
       description: |-
