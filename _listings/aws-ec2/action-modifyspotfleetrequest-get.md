@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifySpotFleetRequest&k=1:
+  /?Action=ModifySpotFleetRequest:
     get:
       summary: Modify Spot Fleet Request
       description: Modifies the specified Spot fleet request
