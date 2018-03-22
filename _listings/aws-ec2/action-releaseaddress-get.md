@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReleaseAddress&k=1:
+  /?Action=ReleaseAddress:
     get:
       summary: Release Address
       description: Releases the specified Elastic IP address
