@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyHosts&k=1:
+  /?Action=ModifyHosts:
     get:
       summary: Modify Hosts
       description: Modify the auto-placement setting of a Dedicated Host
