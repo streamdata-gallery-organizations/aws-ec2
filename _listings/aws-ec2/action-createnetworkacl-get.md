@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateNetworkAcl&k=1:
+  /?Action=CreateNetworkAcl:
     get:
       summary: Create Network Acl
       description: Creates a network ACL in a VPC
