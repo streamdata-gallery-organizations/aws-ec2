@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ImportVolume&k=1:
+  /?Action=ImportVolume:
     get:
       summary: Import Volume
       description: Creates an import volume task using metadata from the specified
