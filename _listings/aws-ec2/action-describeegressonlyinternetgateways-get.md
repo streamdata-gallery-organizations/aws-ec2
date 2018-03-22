@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEgressOnlyInternetGateways&k=1:
+  /?Action=DescribeEgressOnlyInternetGateways:
     get:
       summary: Describe Egress Only Internet Gateways
       description: Describes one or more of your egress-only Internet gateways
