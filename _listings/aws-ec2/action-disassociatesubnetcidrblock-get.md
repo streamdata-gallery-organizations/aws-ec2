@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisassociateSubnetCidrBlock&k=1:
+  /?Action=DisassociateSubnetCidrBlock:
     get:
       summary: Disassociate Subnet Cidr Block
       description: Disassociates a CIDR block from a subnet
