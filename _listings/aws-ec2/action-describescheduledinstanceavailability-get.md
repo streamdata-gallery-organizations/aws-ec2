@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeScheduledInstanceAvailability&k=1:
+  /?Action=DescribeScheduledInstanceAvailability:
     get:
       summary: Describe Scheduled Instance Availability
       description: Finds available schedules that meet the specified criteria
