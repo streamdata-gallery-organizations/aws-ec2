@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisassociateVpcCidrBlock&k=1:
+  /?Action=DisassociateVpcCidrBlock:
     get:
       summary: Disassociate Vpc Cidr Block
       description: Disassociates a CIDR block from a VPC
