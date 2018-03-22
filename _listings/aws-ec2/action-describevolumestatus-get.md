@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVolumeStatus&k=1:
+  /?Action=DescribeVolumeStatus:
     get:
       summary: Describe Volume Status
       description: Describes the status of the specified volumes
