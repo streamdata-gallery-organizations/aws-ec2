@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcAttribute&k=1:
+  /?Action=DescribeVpcAttribute:
     get:
       summary: Describe Vpc Attribute
       description: Describes the specified attribute of the specified VPC
