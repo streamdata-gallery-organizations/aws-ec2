@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSpotDatafeedSubscription&k=1:
+  /?Action=CreateSpotDatafeedSubscription:
     get:
       summary: Create Spot Datafeed Subscription
       description: Creates a data feed for Spot instances, enabling you to view Spot
