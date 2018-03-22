@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreAddressToClassic&k=1:
+  /?Action=RestoreAddressToClassic:
     get:
       summary: Restore Address To Classic
       description: Restores an Elastic IP address that was previously moved to the
