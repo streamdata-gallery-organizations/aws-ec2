@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSpotFleetInstances&k=1:
+  /?Action=DescribeSpotFleetInstances:
     get:
       summary: Describe Spot Fleet Instances
       description: Describes the running instances for the specified Spot fleet
