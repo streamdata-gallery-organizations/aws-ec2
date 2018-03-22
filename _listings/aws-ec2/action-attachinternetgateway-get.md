@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachInternetGateway&k=1:
+  /?Action=AttachInternetGateway:
     get:
       summary: Attach Internet Gateway
       description: "Attaches an Internet gateway to a VPC, enabling connectivity between
