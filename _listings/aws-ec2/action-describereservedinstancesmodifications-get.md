@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReservedInstancesModifications&k=1:
+  /?Action=DescribeReservedInstancesModifications:
     get:
       summary: Describe Reserved Instances Modifications
       description: Describes the modifications made to your Reserved Instances
