@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInternetGateways&k=1:
+  /?Action=DescribeInternetGateways:
     get:
       summary: Describe Internet Gateways
       description: Describes one or more of your Internet gateways
