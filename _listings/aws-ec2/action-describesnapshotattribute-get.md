@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSnapshotAttribute&k=1:
+  /?Action=DescribeSnapshotAttribute:
     get:
       summary: Describe Snapshot Attribute
       description: Describes the specified attribute of the specified snapshot
