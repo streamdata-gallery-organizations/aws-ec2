@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PurchaseReservedInstancesOffering&k=1:
+  /?Action=PurchaseReservedInstancesOffering:
     get:
       summary: Purchase Reserved Instances Offering
       description: Purchases a Reserved Instance for use with your account
