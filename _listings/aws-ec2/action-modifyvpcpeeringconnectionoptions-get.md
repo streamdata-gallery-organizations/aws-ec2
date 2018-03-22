@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyVpcPeeringConnectionOptions&k=1:
+  /?Action=ModifyVpcPeeringConnectionOptions:
     get:
       summary: Modify Vpc Peering Connection Options
       description: Modifies the VPC peering connection options on one side of a VPC
