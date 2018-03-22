@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeNetworkInterfaceAttribute&k=1:
+  /?Action=DescribeNetworkInterfaceAttribute:
     get:
       summary: Describe Network Interface Attribute
       description: Describes a network interface attribute
