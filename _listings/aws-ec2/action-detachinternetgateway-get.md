@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachInternetGateway&k=1:
+  /?Action=DetachInternetGateway:
     get:
       summary: Detach Internet Gateway
       description: Detaches an Internet gateway from a VPC, disabling connectivity
