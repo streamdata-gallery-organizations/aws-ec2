@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReservedInstancesListing&k=1:
+  /?Action=CreateReservedInstancesListing:
     get:
       summary: Create Reserved Instances Listing
       description: "Creates a listing for Amazon EC2 Standard Reserved Instances to
