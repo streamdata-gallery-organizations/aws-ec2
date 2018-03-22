@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateNetworkAclEntry&k=1:
+  /?Action=CreateNetworkAclEntry:
     get:
       summary: Create Network Acl Entry
       description: Creates an entry (a rule) in a network ACL with the specified rule
