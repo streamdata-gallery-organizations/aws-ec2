@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMovingAddresses&k=1:
+  /?Action=DescribeMovingAddresses:
     get:
       summary: Describe Moving Addresses
       description: Describes your Elastic IP addresses that are being moved to the
