@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcs&k=1:
+  /?Action=DescribeVpcs:
     get:
       summary: Describe Vpcs
       description: Describes one or more of your VPCs
