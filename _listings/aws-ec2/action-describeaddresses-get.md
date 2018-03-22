@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAddresses&k=1:
+  /?Action=DescribeAddresses:
     get:
       summary: Describe Addresses
       description: Describes one or more of your Elastic IP addresses
