@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebootInstances&k=1:
+  /?Action=RebootInstances:
     get:
       summary: Reboot Instances
       description: Requests a reboot of one or more instances
