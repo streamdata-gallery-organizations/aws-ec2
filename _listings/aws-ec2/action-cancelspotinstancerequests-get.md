@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelSpotInstanceRequests&k=1:
+  /?Action=CancelSpotInstanceRequests:
     get:
       summary: Cancel Spot Instance Requests
       description: Cancels one or more Spot instance requests
