@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReservedInstancesListings&k=1:
+  /?Action=DescribeReservedInstancesListings:
     get:
       summary: Describe Reserved Instances Listings
       description: Describes your account's Reserved Instance listings in the Reserved
