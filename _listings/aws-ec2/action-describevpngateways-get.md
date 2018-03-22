@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpnGateways&k=1:
+  /?Action=DescribeVpnGateways:
     get:
       summary: Describe Vpn Gateways
       description: Describes one or more of your virtual private gateways
