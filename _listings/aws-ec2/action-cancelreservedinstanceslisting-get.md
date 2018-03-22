@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelReservedInstancesListing&k=1:
+  /?Action=CancelReservedInstancesListing:
     get:
       summary: Cancel Reserved Instances Listing
       description: Cancels the specified Reserved Instance listing in the Reserved
