@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopInstances&k=1:
+  /?Action=StopInstances:
     get:
       summary: Stop Instances
       description: Stops an Amazon EBS-backed instance
