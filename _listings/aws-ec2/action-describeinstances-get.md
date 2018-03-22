@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInstances&k=1:
+  /?Action=DescribeInstances:
     get:
       summary: Describe Instances
       description: Describes one or more of your instances
