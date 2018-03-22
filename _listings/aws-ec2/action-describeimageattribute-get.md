@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeImageAttribute&k=1:
+  /?Action=DescribeImageAttribute:
     get:
       summary: Describe Image Attribute
       description: Describes the specified attribute of the specified AMI
