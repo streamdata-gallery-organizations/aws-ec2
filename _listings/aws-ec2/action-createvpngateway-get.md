@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVpnGateway&k=1:
+  /?Action=CreateVpnGateway:
     get:
       summary: Create Vpn Gateway
       description: Creates a virtual private gateway
