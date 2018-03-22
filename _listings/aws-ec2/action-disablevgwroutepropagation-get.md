@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableVgwRoutePropagation&k=1:
+  /?Action=DisableVgwRoutePropagation:
     get:
       summary: Disable Vgw Route Propagation
       description: Disables a virtual private gateway (VGW) from propagating routes
