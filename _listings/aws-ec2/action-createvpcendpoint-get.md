@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVpcEndpoint&k=1:
+  /?Action=CreateVpcEndpoint:
     get:
       summary: Create Vpc Endpoint
       description: Creates a VPC endpoint for a specified AWS service
