@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreatePlacementGroup&k=1:
+  /?Action=CreatePlacementGroup:
     get:
       summary: Create Placement Group
       description: Creates a placement group that you launch cluster instances into
