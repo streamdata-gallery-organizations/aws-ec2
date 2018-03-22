@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateImage&k=1:
+  /?Action=CreateImage:
     get:
       summary: Create Image
       description: Creates an Amazon EBS-backed AMI from an Amazon EBS-backed instance
