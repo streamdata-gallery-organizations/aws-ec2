@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeIdFormat&k=1:
+  /?Action=DescribeIdFormat:
     get:
       summary: Describe Id Format
       description: Describes the ID format settings for your resources on a per-region
