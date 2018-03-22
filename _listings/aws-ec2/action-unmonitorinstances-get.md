@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UnmonitorInstances&k=1:
+  /?Action=UnmonitorInstances:
     get:
       summary: Unmonitor Instances
       description: Disables detailed monitoring for a running instance
