@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSecurityGroupReferences (EC2-VPC only)&k=1:
+  /?Action=DescribeSecurityGroupReferences (EC2-VPC only):
     get:
       summary: Describe Security Group References ( E C2- V P C only)
       description: '[EC2-VPC only] Describes the VPCs on the other side of a VPC peering
