@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInstanceAttribute&k=1:
+  /?Action=DescribeInstanceAttribute:
     get:
       summary: Describe Instance Attribute
       description: Describes the specified attribute of the specified instance
