@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeExportTasks&k=1:
+  /?Action=DescribeExportTasks:
     get:
       summary: Describe Export Tasks
       description: Describes one or more of your export tasks
