@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyIdentityIdFormat&k=1:
+  /?Action=ModifyIdentityIdFormat:
     get:
       summary: Modify Identity Id Format
       description: |-
