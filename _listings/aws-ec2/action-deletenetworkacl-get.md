@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteNetworkAcl&k=1:
+  /?Action=DeleteNetworkAcl:
     get:
       summary: Delete Network Acl
       description: Deletes the specified network ACL
