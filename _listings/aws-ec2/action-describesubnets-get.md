@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSubnets&k=1:
+  /?Action=DescribeSubnets:
     get:
       summary: Describe Subnets
       description: Describes one or more of your subnets
