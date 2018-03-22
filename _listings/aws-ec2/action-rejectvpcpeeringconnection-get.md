@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RejectVpcPeeringConnection&k=1:
+  /?Action=RejectVpcPeeringConnection:
     get:
       summary: Reject Vpc Peering Connection
       description: Rejects a VPC peering connection request
