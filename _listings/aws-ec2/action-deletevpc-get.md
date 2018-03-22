@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVpc&k=1:
+  /?Action=DeleteVpc:
     get:
       summary: Delete Vpc
       description: Deletes the specified VPC
