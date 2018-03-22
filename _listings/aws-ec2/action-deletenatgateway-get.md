@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteNatGateway&k=1:
+  /?Action=DeleteNatGateway:
     get:
       summary: Delete Nat Gateway
       description: Deletes the specified NAT gateway
