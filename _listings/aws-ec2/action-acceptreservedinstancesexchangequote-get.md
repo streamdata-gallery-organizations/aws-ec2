@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AcceptReservedInstancesExchangeQuote&k=1:
+  /?Action=AcceptReservedInstancesExchangeQuote:
     get:
       summary: Accept Reserved Instances Exchange Quote
       description: Accepts the Convertible Reserved Instance exchange quote described
