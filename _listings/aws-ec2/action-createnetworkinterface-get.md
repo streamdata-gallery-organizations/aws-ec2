@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateNetworkInterface&k=1:
+  /?Action=CreateNetworkInterface:
     get:
       summary: Create Network Interface
       description: Creates a network interface in the specified subnet
