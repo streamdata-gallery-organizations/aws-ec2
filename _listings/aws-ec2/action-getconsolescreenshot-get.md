@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetConsoleScreenshot&k=1:
+  /?Action=GetConsoleScreenshot:
     get:
       summary: Get Console Screenshot
       description: Retrieve a JPG-format screenshot of a running instance to help
