@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetConsoleOutput&k=1:
+  /?Action=GetConsoleOutput:
     get:
       summary: Get Console Output
       description: Gets the console output for the specified instance
