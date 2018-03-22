@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVpnGateway&k=1:
+  /?Action=DeleteVpnGateway:
     get:
       summary: Delete Vpn Gateway
       description: Deletes the specified virtual private gateway
