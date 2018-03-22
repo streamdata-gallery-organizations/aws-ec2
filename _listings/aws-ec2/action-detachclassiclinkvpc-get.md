@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachClassicLinkVpc&k=1:
+  /?Action=DetachClassicLinkVpc:
     get:
       summary: Detach Classic Link Vpc
       description: Unlinks (detaches) a linked EC2-Classic instance from a VPC
