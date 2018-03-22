@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AllocateHosts&k=1:
+  /?Action=AllocateHosts:
     get:
       summary: Allocate Hosts
       description: Allocates a Dedicated Host to your account
