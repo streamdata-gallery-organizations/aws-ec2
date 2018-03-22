@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReplaceNetworkAclEntry&k=1:
+  /?Action=ReplaceNetworkAclEntry:
     get:
       summary: Replace Network Acl Entry
       description: Replaces an entry (rule) in a network ACL
