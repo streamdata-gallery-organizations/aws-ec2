@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDhcpOptions&k=1:
+  /?Action=CreateDhcpOptions:
     get:
       summary: Create Dhcp Options
       description: Creates a set of DHCP options for your VPC
