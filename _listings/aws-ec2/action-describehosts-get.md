@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHosts&k=1:
+  /?Action=DescribeHosts:
     get:
       summary: Describe Hosts
       description: Describes one or more of your Dedicated Hosts
