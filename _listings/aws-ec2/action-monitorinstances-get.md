@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=MonitorInstances&k=1:
+  /?Action=MonitorInstances:
     get:
       summary: Monitor Instances
       description: Enables detailed monitoring for a running instance
