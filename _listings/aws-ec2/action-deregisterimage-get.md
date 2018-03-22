@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterImage&k=1:
+  /?Action=DeregisterImage:
     get:
       summary: Deregister Image
       description: Deregisters the specified AMI
