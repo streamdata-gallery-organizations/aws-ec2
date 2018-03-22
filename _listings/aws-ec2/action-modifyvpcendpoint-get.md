@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyVpcEndpoint&k=1:
+  /?Action=ModifyVpcEndpoint:
     get:
       summary: Modify Vpc Endpoint
       description: Modifies attributes of a specified VPC endpoint
