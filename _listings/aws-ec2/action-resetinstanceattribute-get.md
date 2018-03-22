@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetInstanceAttribute&k=1:
+  /?Action=ResetInstanceAttribute:
     get:
       summary: Reset Instance Attribute
       description: Resets an attribute of an instance to its default value
