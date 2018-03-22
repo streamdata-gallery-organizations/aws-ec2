@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelImportTask&k=1:
+  /?Action=CancelImportTask:
     get:
       summary: Cancel Import Task
       description: Cancels an in-process import virtual machine or import snapshot
