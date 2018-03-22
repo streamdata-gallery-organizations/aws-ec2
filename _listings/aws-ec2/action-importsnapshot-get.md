@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ImportSnapshot&k=1:
+  /?Action=ImportSnapshot:
     get:
       summary: Import Snapshot
       description: Describes your import snapshot tasks
