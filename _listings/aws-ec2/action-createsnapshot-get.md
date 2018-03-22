@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSnapshot&k=1:
+  /?Action=CreateSnapshot:
     get:
       summary: Create Snapshot
       description: Creates a snapshot of an EBS volume and stores it in Amazon S3
