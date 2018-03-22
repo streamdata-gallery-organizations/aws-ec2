@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisassociateRouteTable&k=1:
+  /?Action=DisassociateRouteTable:
     get:
       summary: Disassociate Route Table
       description: Disassociates a subnet from a route table
