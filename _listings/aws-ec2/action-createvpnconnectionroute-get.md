@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVpnConnectionRoute&k=1:
+  /?Action=CreateVpnConnectionRoute:
     get:
       summary: Create Vpn Connection Route
       description: Creates a static route associated with a VPN connection between
