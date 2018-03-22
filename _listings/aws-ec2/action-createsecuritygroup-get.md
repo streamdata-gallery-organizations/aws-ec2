@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSecurityGroup&k=1:
+  /?Action=CreateSecurityGroup:
     get:
       summary: Create Security Group
       description: Creates a security group
