@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeIdentityIdFormat&k=1:
+  /?Action=DescribeIdentityIdFormat:
     get:
       summary: Describe Identity Id Format
       description: |-
