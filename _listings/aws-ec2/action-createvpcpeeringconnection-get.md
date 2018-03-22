@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateVpcPeeringConnection&k=1:
+  /?Action=CreateVpcPeeringConnection:
     get:
       summary: Create Vpc Peering Connection
       description: 'Requests a VPC peering connection between two VPCs: a requester
