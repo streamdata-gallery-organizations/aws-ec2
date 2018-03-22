@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyVolumeAttribute&k=1:
+  /?Action=ModifyVolumeAttribute:
     get:
       summary: Modify Volume Attribute
       description: Modifies a volume attribute
