@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReleaseHosts&k=1:
+  /?Action=ReleaseHosts:
     get:
       summary: Release Hosts
       description: When you no longer want to use an On-Demand Dedicated Host it can
