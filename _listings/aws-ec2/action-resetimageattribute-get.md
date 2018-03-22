@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetImageAttribute&k=1:
+  /?Action=ResetImageAttribute:
     get:
       summary: Reset Image Attribute
       description: Resets an attribute of an AMI to its default value
