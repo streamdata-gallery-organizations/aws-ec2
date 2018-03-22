@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeKeyPairs&k=1:
+  /?Action=DescribeKeyPairs:
     get:
       summary: Describe Key Pairs
       description: Describes one or more of your key pairs
