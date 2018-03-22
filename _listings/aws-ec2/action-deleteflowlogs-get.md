@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteFlowLogs&k=1:
+  /?Action=DeleteFlowLogs:
     get:
       summary: Delete Flow Logs
       description: Deletes one or more flow logs
