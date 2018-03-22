@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelBundleTask&k=1:
+  /?Action=CancelBundleTask:
     get:
       summary: Cancel Bundle Task
       description: Cancels a bundling operation for an instance store-backed Windows
