@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDhcpOptions&k=1:
+  /?Action=DeleteDhcpOptions:
     get:
       summary: Delete Dhcp Options
       description: Deletes the specified set of DHCP options
