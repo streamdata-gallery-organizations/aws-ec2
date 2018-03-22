@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AuthorizeSecurityGroupEgress (EC2-VPC only)&k=1:
+  /?Action=AuthorizeSecurityGroupEgress (EC2-VPC only):
     get:
       summary: Authorize Security Group Egress ( E C2- V P C only)
       description: '[EC2-VPC only] Adds one or more egress rules to a security group
