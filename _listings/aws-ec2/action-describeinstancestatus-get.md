@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInstanceStatus&k=1:
+  /?Action=DescribeInstanceStatus:
     get:
       summary: Describe Instance Status
       description: Describes the status of one or more instances
