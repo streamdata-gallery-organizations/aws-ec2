@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeClassicLinkInstances&k=1:
+  /?Action=DescribeClassicLinkInstances:
     get:
       summary: Describe Classic Link Instances
       description: Describes one or more of your linked EC2-Classic instances
