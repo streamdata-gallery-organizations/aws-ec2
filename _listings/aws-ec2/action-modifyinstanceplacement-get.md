@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyInstancePlacement&k=1:
+  /?Action=ModifyInstancePlacement:
     get:
       summary: Modify Instance Placement
       description: |-
