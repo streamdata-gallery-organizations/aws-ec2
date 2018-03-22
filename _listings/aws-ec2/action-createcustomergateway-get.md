@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCustomerGateway&k=1:
+  /?Action=CreateCustomerGateway:
     get:
       summary: Create Customer Gateway
       description: Provides information to AWS about your VPN customer gateway device
