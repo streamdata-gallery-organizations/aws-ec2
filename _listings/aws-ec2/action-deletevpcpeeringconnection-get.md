@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVpcPeeringConnection&k=1:
+  /?Action=DeleteVpcPeeringConnection:
     get:
       summary: Delete Vpc Peering Connection
       description: Deletes a VPC peering connection
