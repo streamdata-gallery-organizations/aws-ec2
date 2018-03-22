@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetNetworkInterfaceAttribute&k=1:
+  /?Action=ResetNetworkInterfaceAttribute:
     get:
       summary: Reset Network Interface Attribute
       description: Resets a network interface attribute
