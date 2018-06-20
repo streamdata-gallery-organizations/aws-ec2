@@ -1858,23 +1858,4 @@
           "id": "c1365ad2-3989-4d70-9da6-1ff776bda137",
           "name": "rebootinstances",
           "request": {
-            "url": "http://example.com/api/?Action=RebootInstances?Description=Description&DryRun=DryRun&EndTime=EndTime&InstanceId.N=InstanceId.N&ReasonCode.N=ReasonCode.N&StartTime=StartTime&Status=Status",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Requests a reboot of one or more instances."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "dd6e721e-2754-4c02-b05d-9634c1a9ccab"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "url": "http://example.com/api/?Action=RebootInstances?Description=Description&DryRun

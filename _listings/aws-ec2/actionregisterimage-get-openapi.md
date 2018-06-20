@@ -22,8 +22,8 @@ paths:
       parameters:
       - in: query
         name: ClientToken
-        description: "Unique, case-sensitive identifier you provide to ensure\t\t\t\tidempotency
-          of the request"
+        description: Unique, case-sensitive identifier you provide to ensureidempotency
+          of the request
         type: string
       - in: query
         name: Description
@@ -281,7 +281,7 @@ paths:
         type: string
       - in: query
         name: RootDeviceName
-        description: "The name of the root device (for example, /dev/sda1, or\t\t\t\t/dev/xvda)"
+        description: The name of the root device (for example, /dev/sda1, or/dev/xvda)
         type: string
       - in: query
         name: SriovNetSupport

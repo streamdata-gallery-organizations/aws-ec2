@@ -22,8 +22,8 @@ paths:
       parameters:
       - in: query
         name: ClientToken
-        description: "Unique, case-sensitive identifier you provide to ensure\t\t\t\tidempotency
-          of the request"
+        description: Unique, case-sensitive identifier you provide to ensureidempotency
+          of the request
         type: string
       - in: query
         name: Description
@@ -281,7 +281,7 @@ paths:
         type: string
       - in: query
         name: RootDeviceName
-        description: "The name of the root device (for example, /dev/sda1, or\t\t\t\t/dev/xvda)"
+        description: The name of the root device (for example, /dev/sda1, or/dev/xvda)
         type: string
       - in: query
         name: SriovNetSupport
@@ -430,8 +430,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t\t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: InstanceId
@@ -461,8 +461,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: Filter.N
@@ -495,8 +495,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: Filter.N
@@ -545,8 +545,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: InstanceId
@@ -570,8 +570,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t\t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: VpcId
@@ -607,8 +607,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: VpcId
@@ -2321,8 +2321,8 @@ paths:
         type: string
       - in: query
         name: BlockDeviceMapping.N
-        description: "Modifies the DeleteOnTermination attribute for volumes\t\t\t\tthat
-          are currently attached"
+        description: Modifies the DeleteOnTermination attribute for volumesthat are
+          currently attached
         type: string
       - in: query
         name: DisableApiTermination
@@ -3466,8 +3466,8 @@ paths:
       parameters:
       - in: query
         name: ClientToken
-        description: "Unique, case-sensitive identifier you provide to ensure idempotency
-          of your\t\t\t\tlistings"
+        description: Unique, case-sensitive identifier you provide to ensure idempotency
+          of yourlistings
         type: string
       - in: query
         name: InstanceCount
@@ -5630,8 +5630,8 @@ paths:
         type: string
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: PolicyDocument
@@ -5664,8 +5664,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: VpcEndpointId.N
@@ -5685,8 +5685,8 @@ paths:
       parameters:
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: Filter.N
